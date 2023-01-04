@@ -25,8 +25,7 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-#    bucket: sisaac-springboot-build
-    bucket: freelec-springboot-build
+    bucket: sisaac-springboot-build
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
@@ -36,14 +35,14 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-#    bucket: sisaac-springboot-build
-    bucket: freelec-springboot-build
+    bucket: sisaac-springboot-build
     key: freelec-springboot2-webservice.zip
     build_type: zip
     application: freelec-springboot2-webservice
     deployment_group: freelec-springboot2-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
+
 # CI 실행 완료 시 메일로 알람
 notifications:
   email:
