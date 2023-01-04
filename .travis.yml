@@ -25,7 +25,8 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: sisaac-springboot-build
+#    bucket: sisaac-springboot-build
+    bucket: freelec-springboot-build
     region: ap-northeast-2
     skip_cleanup: true
     acl: private
@@ -35,7 +36,8 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: sisaac-springboot-build
+#    bucket: sisaac-springboot-build
+    bucket: freelec-springboot-build
     key: freelec-springboot2-webservice.zip
     build_type: zip
     application: freelec-springboot2-webservice
