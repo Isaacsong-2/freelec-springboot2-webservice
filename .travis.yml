@@ -38,7 +38,7 @@ deploy:
     bucket: sisaac-springboot-build
     key: freelec-springboot2-webservice.zip
     build_type: zip
-    application: freelec_springboot2-webservice
+    application: freelec-springboot2-webservice
     deployment_group: freelec-springboot2-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
