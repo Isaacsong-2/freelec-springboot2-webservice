@@ -1,77 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T05:58:41.727Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JuxavUQVuBDAn75J92GZ" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T06:02:36.171Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M7Mxad20Qd4YUERrVPF7" version="22.0.4" type="github">
   <diagram name="Page-1" id="gmlr0-_GPtqkEh0O4d1O">
     <mxGraphModel dx="1290" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="256.88" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-5" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-5" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="260" y="246.88" width="72" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Storage__Content_Delivery_Amazon_CloudFront-512.png;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-5">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Storage__Content_Delivery_Amazon_CloudFront-512.png;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Lyp4zoM_dsBpQ6nH0JFz-5" vertex="1">
           <mxGeometry width="72" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-4" value="CloudFront" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-5">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-4" value="CloudFront" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="Lyp4zoM_dsBpQ6nH0JFz-5" vertex="1">
           <mxGeometry x="6" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-8" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-8" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="160" y="246.88" width="63" height="106.24999999999997" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-route53-icon-423x512-3ohbrj3h.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-8">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-route53-icon-423x512-3ohbrj3h.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-8" vertex="1">
           <mxGeometry width="63" height="76.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-7" value="Route53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-8">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-7" value="Route53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-8" vertex="1">
           <mxGeometry x="1.5" y="76.24999999999997" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="367.72" y="200" width="53.59519152622602" height="90" as="geometry" />
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-16" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="367.72" y="200" width="264.28" height="372" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-11" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-16">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-11" value="S3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-16" vertex="1">
           <mxGeometry x="1.8000000000000114" y="70.53" width="49.99" height="19.47" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1712px-Amazon-S3-Logo.svg.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-16">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1712px-Amazon-S3-Logo.svg.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-16" vertex="1">
           <mxGeometry x="-1.8100000000000023" y="-4.11999999999999" width="53.595191526226024" height="64.11596066768483" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-19" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-19" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="580" y="190" width="59.99999999999997" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-ec2-icon-423x512-iaajemnx.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-19">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-ec2-icon-423x512-iaajemnx.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-19" vertex="1">
           <mxGeometry x="1.0800000000000034" width="57.83" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-18" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-19">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-18" value="EC2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-19" vertex="1">
           <mxGeometry y="70" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-23" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-23" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="470" y="233.76" width="63" height="106.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-20" value="" style="group" vertex="1" connectable="0" parent="Lyp4zoM_dsBpQ6nH0JFz-23">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-20" value="" style="group" parent="Lyp4zoM_dsBpQ6nH0JFz-23" vertex="1" connectable="0">
           <mxGeometry width="63" height="106.24999999999997" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-22" value="Route53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-20">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-22" value="Route53" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-20" vertex="1">
           <mxGeometry x="1.5" y="76.24999999999997" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-route53-icon-423x512-3ohbrj3h.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-23">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static-00.iconduck.com/assets.00/aws-route53-icon-423x512-3ohbrj3h.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-23" vertex="1">
           <mxGeometry y="10" width="63" height="76.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-27" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-27" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="360" y="293.13" width="69.02999999999997" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-27">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-27" vertex="1">
           <mxGeometry width="69.03" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-26" value="React" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-27">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-26" value="React" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-27" vertex="1">
           <mxGeometry x="4.520000000000039" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-30" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-30" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="573.63" y="300" width="72.73000000000002" height="95.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.ctfassets.net/gt6dp23g0g38/5DqlQtFKecFlkqQ8YGDT2p/aa945b648f44dd872e9a1b89f7d203ef/springboot.png;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-30">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.ctfassets.net/gt6dp23g0g38/5DqlQtFKecFlkqQ8YGDT2p/aa945b648f44dd872e9a1b89f7d203ef/springboot.png;" parent="Lyp4zoM_dsBpQ6nH0JFz-30" vertex="1">
           <mxGeometry width="72.73" height="65.25" as="geometry" />
         </mxCell>
-        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-29" value="SpringBoot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Lyp4zoM_dsBpQ6nH0JFz-30">
+        <mxCell id="Lyp4zoM_dsBpQ6nH0JFz-29" value="SpringBoot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Lyp4zoM_dsBpQ6nH0JFz-30" vertex="1">
           <mxGeometry x="6.3700000000000045" y="65.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VPR4cuvmcJ2QFivnVQUA-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/1089/1089003.png;" vertex="1" parent="1">
+          <mxGeometry x="690" y="234.74" width="84.28" height="84.28" as="geometry" />
+        </mxCell>
+        <mxCell id="VPR4cuvmcJ2QFivnVQUA-2" value="GPU Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="702.14" y="319.02" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
